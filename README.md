@@ -9,7 +9,15 @@ This module calculates the size of an analog clock face for the [Bangle.js 2](ht
 Within a clock implementation, the module may be used as follows:
 
 ```
+let ClockSize = require('https://raw.githubusercontent.com/rozek/banglejs-2-simple-clock-size/main/simpleClockSize.js');
+
+let CenterX = ClockSize.CenterX();
+let CenterY = ClockSize.CenterY();
+
+let outerRadius = ClockSize.outerRadius();
 ```
+
+`CenterX`, `CenterY` and `outerRadius` are the values you will then pass to the routines which draw clock face and hands.
 
 ## License ##
 
