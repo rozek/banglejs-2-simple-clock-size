@@ -16,3 +16,4 @@
     return Math.min(AppRect.w/2,AppRect.h/2);
   };
 })();
+
