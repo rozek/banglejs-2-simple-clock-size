@@ -6,6 +6,8 @@ This module calculates the size of an analog clock face for the [Bangle.js 2](ht
 
 ![](Demo.png)
 
+The screenshot illustrates how the area for the clock has been reduced in order to make room for any loaded widgets.
+
 ## Usage ##
 
 Within a clock implementation, the module may be used as follows:
@@ -16,7 +18,6 @@ Clockwork.windUp({
   size: require('https://raw.githubusercontent.com/rozek/banglejs-2-simple-clock-size/main/ClockSize.js'),
   ...
 }});
-
 ```
 
 ## Example ##
