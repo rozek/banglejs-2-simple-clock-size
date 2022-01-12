@@ -1,4 +1,4 @@
-(function () {
+;(function () {
   let AppRect;
 
   exports.CenterX = function CenterX () {
