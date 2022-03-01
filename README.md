@@ -12,7 +12,7 @@ The screenshot illustrates how the area for the clock has been reduced in order 
 
 Within a clock implementation, the module may be used as follows:
 
-```
+```javascript
 let Clockwork = require(...);
 Clockwork.windUp({
   size: require('https://raw.githubusercontent.com/rozek/banglejs-2-simple-clock-size/main/ClockSize.js'),
@@ -24,7 +24,7 @@ Clockwork.windUp({
 
 The following code shows a complete example for a (still simple) analog clock using this clock size calculator:
 
-```
+```javascript
 let Clockwork = require('https://raw.githubusercontent.com/rozek/banglejs-2-simple-clockwork/main/Clockwork.js');
 
 Clockwork.windUp({
